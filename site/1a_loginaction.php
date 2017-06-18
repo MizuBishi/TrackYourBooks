@@ -13,7 +13,7 @@ if(!isset($_POST["email"]) || !isset($_POST["password"]))  {
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-$query = "SELECT id, username, email, password FROM Users WHERE email = '$email'";
+$query = "SELECT id, username, email, password FROM users WHERE email = '$email'";
 
 $res = mysqli_query($con, $query);
 $row = mysqli_fetch_assoc($res);

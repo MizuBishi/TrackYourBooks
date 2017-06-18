@@ -2,11 +2,14 @@
 session_start();
 defined('MAGIC') || die('you cannot access this file directly.');
 
+# error_reporting(E_ALL);
+# ini_set('display_errors', 1);
+
 $con  = openMysqlConnection();
 
 function openMysqlConnection() {
 
-  $con = mysqli_connect("127.0.0.1", "trackit", "trackit", "Trackit") or die("Error" . mysqli_error($con));
+  $con = mysqli_connect("127.0.0.1", "trackit", "trackit", "trackit") or die("Error" . mysqli_error($con));
   mysqli_set_charset($con, 'utf8');
   return $con;
 }

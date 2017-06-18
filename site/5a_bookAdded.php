@@ -11,7 +11,7 @@ $year   = $_POST["year"];
 $pages  = $_POST["pages"];
 $genre  = $_POST["genre"];
 $query  = "
-  INSERT INTO Books (title, author, year, pages, genre)
+  INSERT INTO books (title, author, year, pages, genre)
   VALUES ('$title', '$author', '$year', '$pages', '$genre')
 ";
 
