@@ -1,0 +1,125 @@
+
+body {
+    background-image: url("../pictures/IMG_5165_2.JPG");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: fixed background-repeat : no-repeat;
+    height: 100%;
+    font-size: 16px;
+}
+
+#inputEmail3:-webkit-autofill {
+    background-color: white !important;
+}
+
+p.big {
+    font-size: 30px;
+}
+
+.btn {
+    background-color: rgba(000, 000, 000, 0.3);
+    border: none !important
+}
+
+.btn:hover {
+    background:#FFCCFF;
+    background:#F2A4B2;
+}
+
+.table thead {
+    background-color: rgba(000, 000, 000, 0.3);
+}
+
+
+.table {
+@tableBorder : black;
+
+}
+
+.spacer {
+    margin-top: 20px; /* define margin as you see fit */
+}
+
+.spacer_big {
+    margin-top: 50px;
+}
+
+.bar {
+    margin-top: 20px; /* define margin as you see fit */
+}
+
+
+.dropdown-toggle {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.progress-bar {
+    background-image: -webkit-linear-gradient(top, #FFCCFF 0%, #000000 100%);
+    background-image: -o-linear-gradient(top, #000000 0%, #000000 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+    background-image: linear-gradient(to bottom, #000000 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCCFF', endColorstr='FFCCFF', GradientType=10);
+
+}
+
+
+
+
+
+
+.pages{
+    background-color: #003399;
+    opacity: 0.3;
+}
+
+.register {
+    margin-left: 10px;
+}
+
+.glyphicon-signal,
+.glyphicon-off,
+.glyphicon-home {
+    font-size: 22px;
+    color: black;
+}
+
+.glyphicon-remove {
+    color: #F26D85;
+
+
+}
+
+.glyphicon-refresh {
+    color: #614C52;
+}
+
+.glyphicon-ok {
+    color: #79C16E;
+}
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.panel {
+    background: rgba(192, 192, 192, 0.5);
+    border: none !important
+}
+
+.timer {
+    font-weight: bold;
+    font-size: 20vw;
+}
+
+
+

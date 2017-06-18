@@ -1,0 +1,15 @@
+
+Trackit :
+Webapplikation um Bücher zu tracken und sein Leseverhalten aufzuzeichnen.
+
+Requirements:
+- MySql
+- Webserver, PHP
+
+Set Up:
+1. Importiere sql/trackit_dump_20150614.sql
+2. Konfiguriere Datenbankbenutzer username=trackit password=trackit
+   Um anderen Benutzer zu verwenden die Datei site/include/core_functions.php
+   verändern.
+3. Startseite: site/1_login.php
+4. Login: email=bookfreak@gmail.com password=bookfreak
